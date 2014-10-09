@@ -1,0 +1,5 @@
+Q1. What happens when you initialize a repository? Why do you need to do it?
+Ans1.  It create a .git directory. To create a local repository on our system.
+
+Q2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans2. Staging area is the middle layer between the two. Any thing which goes into repository is first added in the satging area, then only can be moved into repository.
