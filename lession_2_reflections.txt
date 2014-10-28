@@ -3,3 +3,19 @@ Ans1.  It create a .git directory. To create a local repository on our system.
 
 Q2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans2. Staging area is the middle layer between the two. Any thing which goes into repository is first added in the satging area, then only can be moved into repository.
+
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+Ans3.  Only stage those files which are logically related for one commit and before commiting use git diff --staged to ensure which files will be commited.
+
+Q4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans4. When more than one person is working on a same project. Also branches can be made based on different features.
+We can easily switch between branches. Branches increases the maintainability of our code.
+
+Q5. How do the diagrams help you visualize the branch structure?
+Ans5. It shows the reachability of each commits.
+
+Q6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans6. It merges the code. Also commits in both the branches can be reached from any of the two branches. It is represented in the diagram so that it can be seen very clearly at which commit both branches were merged. 
+
+Q7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans7. 
